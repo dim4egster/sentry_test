@@ -1,0 +1,1 @@
+SENTRY_DSN=https://3797c631e50d8fe1e7ac80437cd65c02@o4509282228699136.ingest.de.sentry.io/4509282234466384 cargo run

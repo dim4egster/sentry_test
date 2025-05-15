@@ -1,0 +1,12 @@
+[package]
+name = "sentry-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = { version = "0.1", features = ["log"] }
+tracing-subscriber = { version = "0.3", features = ["registry", "env-filter", "json"] }
+sentry = {version = "0.34.0", features = ["tracing"] }
+sentry-tracing = "0.34.0"
+tracing-appender = "0.2.3"
+eyre = "0.6.12"
